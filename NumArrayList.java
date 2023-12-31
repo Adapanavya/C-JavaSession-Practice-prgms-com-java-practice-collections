@@ -14,9 +14,17 @@ public class NumArrayList {
             numbers.set(2,200);
             numbers.remove(3);
             numbers.set(3,100);
-            Collections.sort(numbers);
-            numbers.clear();
-            System.out.println(numbers);
+          //  Collections.sort(numbers);
+           // numbers.clear();
+           /* for(int i=0;i<numbers.size();i++){
+                System.out.println(numbers.get(i));
+
+            }*/
+
+
+            for(Integer eachVal:numbers){
+                System.out.println(eachVal);
+            }
 
         }
 }
